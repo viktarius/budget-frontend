@@ -13,6 +13,6 @@ export class AppComponent {
 
   constructor(private httpClient: HttpClient) {
     console.log(environment.apiUrl);
-    console.log('check!!!!111');
+    console.log('check!');
   }
 }
