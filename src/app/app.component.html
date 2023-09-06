@@ -2,4 +2,8 @@ Hello world! from frontend!!!
 <ng-container *ngIf="request$ | async as request">
   <div>{{ request.content }}</div>
 </ng-container>
+
+<app-icon [icon]="'mdi:home'" [size]="'40px'"></app-icon>
+<app-icon [icon]="'ic:twotone-transform'"></app-icon>
+
 <router-outlet></router-outlet>
